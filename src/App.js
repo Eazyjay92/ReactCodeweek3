@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import EmployeeForm from './EmployeeForm';
 
 function App() {
   return (
@@ -17,6 +19,11 @@ function App() {
         >
           Learn React
         </a>
+        <div>
+      <h1>Employee Data Storage</h1>
+      <EmployeeForm />
+    </div>
+
       </header>
     </div>
   );
